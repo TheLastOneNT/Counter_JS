@@ -1,0 +1,44 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: rgb(102, 177, 214);
+}
+
+.content-container {
+  display: flex;
+  margin-top: 125px;
+  height: 50vh;
+  border-radius: 19px;
+  min-width: 500px;
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(147, 82, 2);
+  margin-top: 40px;
+}
+
+.counter {
+  margin: -10px 0 30px 0;
+  font-size: 90px;
+  font-weight: 600;
+  color: black;
+}
+
+.button {
+  border-width: 0;
+  border-radius: 16px;
+  color: white;
+  height: 45px;
+  width: 130px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(7, 140, 95);
+  font-size: 20px;
+}
